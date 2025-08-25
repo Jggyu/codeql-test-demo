@@ -5,6 +5,7 @@ on:
     branches: [ main ]
   pull_request:
     branches: [ main ]
+  workflow_dispatch:  # 수동 실행 가능하도록 추가
   schedule:
     # 매주 월요일 02:00 UTC에 실행
     - cron: '0 2 * * 1'
